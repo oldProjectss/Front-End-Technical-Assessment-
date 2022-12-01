@@ -8,7 +8,7 @@ const createArea = () => {
   // Add a class to the input to style it and make it easier to select
   newArea.classList.add('input');
   // Add the type of input (text) and the placeholder
-  newArea.setAttribute('placeholder', 'Enter your text or shose a command e.g /h1');
+  newArea.setAttribute('placeholder', 'Type / for blocks, @ to link docs or people');
   newArea.setAttribute('type', 'text');
   // Append the input to the container
   canva.appendChild(newArea);
@@ -19,9 +19,10 @@ const createArea = () => {
   // to make sure the text is converted to an h1 style
   newArea.addEventListener('input', (e) => {
     const { value } = e.target;
-    if (value === '/h1') {
+    if (value === '/1') {
       e.target.value = '';
       e.target.classList.add('h1');
+      e.target.setAttribute('placeholder', 'Heading 1');
     }
   });
 
@@ -36,6 +37,7 @@ const createArea = () => {
       // and remove the input if the area if it's empty and styling is removed
       if (e.target.classList.contains('h1')) {
         e.target.classList.remove('h1');
+        e.target.setAttribute('placeholder', 'Type / for blocks, @ to link docs or people');
       } else if (canva.children.length > 1) {
         e.target.previousSibling.focus();
         e.target.remove();
