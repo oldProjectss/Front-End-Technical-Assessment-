@@ -3,7 +3,6 @@
 <div align="center">
 
   <svg width="146" height="40" viewBox="0 0 508 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
     <title>helpjuice-logo-0307896d1acd18c6a7f52c4256467fb6ca1007315c373af21357496e9ceb49e2</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
