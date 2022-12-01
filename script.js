@@ -30,8 +30,7 @@ const createArea = () => {
   // or the 'Backspace' key to delete the current input
   newArea.addEventListener('keydown', (e) => {
     // If there is no text in the input and the user presses the 'Backspace' key, delete the input
-    if (e.target.value === ''
-       && e.key === 'Backspace') {
+    if (e.target.value === '' && e.key === 'Backspace') {
       //  Make sure to delet the 'h1' class when the 'Backspace' key is pressed
       //  if no text is present
       // and remove the input if the area if it's empty and styling is removed

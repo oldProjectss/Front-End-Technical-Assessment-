@@ -1,0 +1,11 @@
+/node_modules
+/temp
+
+.eslintrc.json
+.eslintignore
+.stylelintrc.json
+.stylelintignore
+.prettierignore
+.prettierrc.json
+.hintignore
+.hintrc
