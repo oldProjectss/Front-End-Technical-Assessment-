@@ -18,7 +18,7 @@ const createArea = () => {
   // Add an event listener to the input for listening for the '/h1/ command
   // to make sure the text is converted to an h1 style
   newArea.addEventListener('input', (e) => {
-    const value = e.target.value;
+    const { value } = e.target;
     if (value === '/h1') {
       e.target.value = '';
       e.target.classList.add('h1');
@@ -30,8 +30,9 @@ const createArea = () => {
   newArea.addEventListener('keydown', (e) => {
     // If there is no text in the input and the user presses the 'Backspace' key, delete the input
     if (e.target.value === ''
-        && e.key === 'Backspace') {
-      //  Make sure to delet the 'h1' class when the 'Backspace' key is pressed  if no text is present
+       && e.key === 'Backspace') {
+      //  Make sure to delet the 'h1' class when the 'Backspace' key is pressed
+      //  if no text is present
       // and remove the input if the area if it's empty and styling is removed
       if (e.target.classList.contains('h1')) {
         e.target.classList.remove('h1');
