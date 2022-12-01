@@ -81,9 +81,8 @@ a {
 }
 
 .heading {
-  
   border-bottom: 1px solid #939393;
-  padding: 1rem .1rem;
+  padding: 1rem 0.1rem;
   margin: 1rem;
   font-size: 3.7rem;
 }
