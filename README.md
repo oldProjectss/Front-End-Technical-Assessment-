@@ -13,11 +13,11 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#About-project)
-  - [🛠 Built With](#Built_with)
-    - [Tech Stack](#Tech-stack)
-    - [Key Features](#Key-features)
-  - [🚀 Live Demo](#Live_Demo)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live_Demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -25,8 +25,8 @@
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#Authors)
-- [🙏 Acknowledgments](#Acknowledgments)
+- [👥 Authors](#author)
+- [🙏 Acknowledgments](#acknowledgments)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -72,7 +72,7 @@
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+### Prerequisites <a name="prerequisites"></a>
 
 In order to run this project you need:
 
@@ -82,7 +82,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- `git clone git@github.com:Ismailco/test-project.git
+- `git clone git@github.com:Ismailco/test-project.git`
 
 ### Install
 
@@ -92,9 +92,9 @@ This project dosen't need Install
 
 To run the project, execute the following command:
 
-- `open index.html`
+- `open index.html` or open `index.html` on your browser
 
-### Run tests
+### Run tests <a name="run-tests"></a>
 
 To run tests, run the following command:
 
@@ -103,7 +103,7 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👤 Author <a name="authors"></a>
+## 👤 Author <a name="author"></a>
 
 - GitHub: [@ismailco](https://github.com/ismailco)
 - Twitter: [@ismailcourr](https://twitter.com/ismailcourr)
