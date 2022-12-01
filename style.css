@@ -43,6 +43,27 @@ a {
   align-items: center;
 }
 
+.icons {
+  color: #939393;
+}
+
+.fa-cloud {
+  color: #006319;
+}
+
+.fa-ellipsis-vertical {
+  color: #222;
+}
+
+.fa-rabbit {
+  color: #cdaaaa;
+  background-color: #d35c5c;
+  font-size: 1.6rem;
+  border-radius: 20px;
+  overflow: hidden;
+  background-position: left;
+}
+
 .options_navigation {
   width: 50%;
   display: flex;
