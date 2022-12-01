@@ -64,6 +64,18 @@ a {
   background-position: left;
 }
 
+.icons:hover,
+.fa-rabbit:hover,
+.fa-cloud:hover,
+.fa-ellipsis-vertical:hover {
+  cursor: pointer;
+}
+
+.nav_links:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .options_navigation {
   width: 50%;
   display: flex;
@@ -105,7 +117,8 @@ a {
   border-bottom: 1px solid #939393;
   padding: 1rem 0.1rem;
   margin: 1rem;
-  font-size: 3.7rem;
+  width: 50%;
+  font-size: 3rem;
 }
 
 .main_text {
