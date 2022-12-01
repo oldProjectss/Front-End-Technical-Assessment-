@@ -1,0 +1,10 @@
+/node_modules
+
+.eslintrc.json
+.eslintignore
+.stylelintrc.json
+.stylelintignore
+.prettierignore
+.prettierrc.json
+.hintignore
+.hintrc.json

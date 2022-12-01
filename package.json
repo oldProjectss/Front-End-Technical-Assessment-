@@ -1,0 +1,25 @@
+{
+  "name": "front-end-developer-test-project",
+  "version": "1.0.0",
+  "description": "This is a test project for the front-end developer position at Helpjuice.",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ismailco/test-project.git"
+  },
+  "keywords": [
+    "Helpjuice"
+  ],
+  "author": "Ismail Courr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ismailco/test-project/issues"
+  },
+  "homepage": "https://github.com/Ismailco/test-project#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
