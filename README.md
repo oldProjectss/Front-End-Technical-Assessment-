@@ -25,7 +25,7 @@
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#author)
+- [👥 Author](#author)
 - [🙏 Acknowledgments](#acknowledgments)
 
 <!-- PROJECT DESCRIPTION -->
