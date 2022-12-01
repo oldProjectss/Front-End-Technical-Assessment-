@@ -1,8 +1,8 @@
 // import createArea from '../script';
 const { JSDOM } = require('jsdom');
 
-const dom = new JSDOM(`<!DOCTYPE html><div id="app" class="canva"></div>`);
-const window = dom.window;
+const dom = new JSDOM('<!DOCTYPE html><div id="app" class="canva"></div>');
+const { window } = dom;
 const { document } = window;
 global.document = document;
 global.window = window;
